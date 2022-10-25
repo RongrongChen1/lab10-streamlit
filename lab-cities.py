@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-plt.style.use('seaborn')
-
 
 st.title('California Housing Data(1990) by Rongrong Chen')
 df = pd.read_csv('housing.csv')
